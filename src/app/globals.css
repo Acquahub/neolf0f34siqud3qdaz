@@ -1,0 +1,505 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+        'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+        sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+    text-decoration: none;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+        monospace;
+}
+
+
+.baseScreen {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    background-color: #ffffff;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.baseLayer {
+    display: flex;
+    contain: paint;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    background-color: transparent;
+    height: 100px;
+    min-height: 100px;
+    width: 300px;
+    min-width: 300px;
+}
+
+.baseText {
+    font-family: -apple-system, system-ui, BlinkMacSystemFont, "Roboto", sans-serif;
+    font-size: 18px;
+    color: #000000;
+    height: fit-content;
+    width: fit-content;
+}
+
+.baseImageView {
+    object-fit: contain;
+    height: 90px;
+    min-height: 90px;
+    width: 115px;
+    min-width: 115px;
+}
+
+.baseIcon {
+    font-family: "Material Icons";
+    color: #000000;
+    height: fit-content;
+    width: fit-content;
+    font-size: 30px;
+}
+
+.hide-native-scrollbar {
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}:root {
+	--color1: #FFFFFF;
+	--color2: #7A5DFF;
+	--color3: #FEF9F0;
+	--color4: #f3e5cd;
+	--color5: #000000;
+	--orientation: row;
+	--SidePadding: 5vw;
+	--verticalPadding: 5vh;
+	--verticalPadding2: 3vh;
+	--verticalMargin: 3vh;
+	--none: 0vh;
+	--buttonPaddingV: 10px;
+	--buttonPaddingH: 15px;
+	--buttonRadious: 20px;
+	--mentorImage: 130px;
+	--mobileVerticalMarging: 0vh;
+	--Title: 0;
+
+}
+
+.layer-2-8dfbb73d7226432db31373ba652c6694-orientation{
+align-items: var(--verticalAxis);
+justify-content: var(--horizontalAxis);
+}
+.layer-35-7e0570b7725d422ea2777c82371d3898-parentOrientationVariable{
+flex: 1 1 50%; align-self: unset; width: 0px; min-width: 0px;
+}
+.layer-36-27c3a96c0b2742feba403d8afa9465f4-parentOrientationVariable{
+flex: 1 1 50%; align-self: unset; width: 0px; min-width: 0px;
+}
+.layer-3-f8ba8ca1ec86493ab2c71e4cd63f2b92-orientation{
+align-items: var(--verticalAxis);
+justify-content: var(--horizontalAxis);
+}
+.layer-10-fc65530f864645bb9313f6d7892c5e36-parentOrientationVariable{
+flex: 1 1 50%; align-self: unset; width: 0px; min-width: 0px;
+}
+.layer-11-75937f71d65c4449b773a9e6494137c1-parentOrientationVariable{
+flex: 1 1 50%; align-self: unset; width: 0px; min-width: 0px;
+}
+.layer-13-06f52d7b242e4b51835571470ddf1c49-orientation{
+align-items: var(--verticalAxis);
+justify-content: var(--horizontalAxis);
+}
+.layer-43-f95248e09dd549f288ac58721ada6bef-parentOrientationVariable{
+flex: 1 1 50%; align-self: unset; width: 0px; min-width: 0px;
+}
+.layer-44-aa5df0b6eaa5487082bd99163e1afaaa-parentOrientationVariable{
+flex: 1 1 50%; align-self: unset; width: 0px; min-width: 0px;
+}
+.layer-45-992ba95b355a493490b858a7bdd142e9-parentOrientationVariable{
+flex: 1 1 50%; align-self: unset; width: 0px; min-width: 0px;
+}
+.layer-15-6960631e349c4adb9960d41790f8853c-orientation{
+align-items: var(--verticalAxis);
+justify-content: var(--horizontalAxis);
+}
+.layer-26-1ed9127d00c245b38b4bc615f01c80fd-parentOrientationVariable{
+flex: 1 1 50%; align-self: unset; width: 0px; min-width: 0px;
+}
+.layer-28-6952c296294742eb853ce73a19190ae1-parentOrientationVariable{
+flex: 1 1 50%; align-self: unset; width: 0px; min-width: 0px;
+}
+.layer-31-d9e59801864c4393a3b43066132c41c7-parentOrientationVariable{
+flex: 1 1 50%; align-self: unset; width: 0px; min-width: 0px;
+}
+.layer-21-e76eb8ae3a324cfa9d7bb384f57523fb-orientation{
+align-items: var(--verticalAxis);
+justify-content: var(--horizontalAxis);
+}
+.layer-24-1feb88816a914247b1865c520045edea-parentOrientationVariable{
+flex: 1 1 50%; align-self: unset; width: 0px; min-width: 0px;
+}
+.layer-46-10896f7295e14955b2e8ad8cac777cff-parentOrientationVariable{
+flex: 1 1 50%; align-self: unset; width: 0px; min-width: 0px;
+}
+.layer-47-3680d098f9f345ee8e60003fa83926dd-parentOrientationVariable{
+flex: 1 1 50%; align-self: unset; width: 0px; min-width: 0px;
+}
+.layer-48-e8f2a65a92d449ae851679782fd19cf4-parentOrientationVariable{
+flex: 1 1 50%; align-self: unset; width: 0px; min-width: 0px;
+}
+.layer-22-461c9bb7f49c4a8c9c884c33800629a5-orientation{
+align-items: var(--verticalAxis);
+justify-content: var(--horizontalAxis);
+}
+.layer-49-cbc82994b8594322acc164417d70ea9d-parentOrientationVariable{
+flex: 1 1 50%; align-self: unset; width: 0px; min-width: 0px;
+}
+.layer-50-f9148800a9cc48f69628ace845289e18-parentOrientationVariable{
+flex: 1 1 50%; align-self: unset; width: 0px; min-width: 0px;
+}
+.layer-51-d205bb52337e4fdda67d32e8c94d30aa-parentOrientationVariable{
+flex: 1 1 50%; align-self: unset; width: 0px; min-width: 0px;
+}
+.layer-52-7514801fface413394a38bb6887cf5d9-parentOrientationVariable{
+flex: 1 1 50%; align-self: unset; width: 0px; min-width: 0px;
+}
+.layer-9-efc53d14a8d04fd1aec82f7f3a2bb383-orientation{
+align-items: var(--verticalAxis);
+justify-content: var(--horizontalAxis);
+}
+.layer-16-7bca4a07ffbe4aabaa6f1672fb7103cb-parentOrientationVariable{
+flex: 1 1 50%; align-self: unset; width: 0px; min-width: 0px;
+}
+.layer-17-4b1be2602dde41e180f2ab80a87bc80c-parentOrientationVariable{
+flex: 1 1 50%; align-self: unset; width: 0px; min-width: 0px;
+}
+@media (max-width: 480px) {:root{
+	--orientation: column;
+	--mobileVerticalMarging: 3vh;
+	--color1: #FFFFFF;
+	--color2: #7A5DFF;
+	--color3: #FEF9F0;
+	--color4: #f3e5cd;
+	--color5: #000000;
+	--SidePadding: 10vw;
+	--verticalPadding: 5vh;
+	--verticalPadding2: 3vh;
+	--verticalMargin: 3vh;
+	--none: 0vh;
+	--buttonPaddingV: 10px;
+	--buttonPaddingH: 15px;
+	--buttonRadious: 20px;
+	--mentorImage: 130px;
+
+} 
+.layer-2-8dfbb73d7226432db31373ba652c6694-orientation{
+align-items: var(--horizontalAxis);
+justify-content: var(--verticalAxis);
+}
+.layer-35-7e0570b7725d422ea2777c82371d3898-parentOrientationVariable{
+align-self: stretch; flex: unset; width: unset; min-width: unset;
+}
+.layer-36-27c3a96c0b2742feba403d8afa9465f4-parentOrientationVariable{
+align-self: stretch; flex: unset; width: unset; min-width: unset;
+}
+.layer-3-f8ba8ca1ec86493ab2c71e4cd63f2b92-orientation{
+align-items: var(--horizontalAxis);
+justify-content: var(--verticalAxis);
+}
+.layer-10-fc65530f864645bb9313f6d7892c5e36-parentOrientationVariable{
+align-self: stretch; flex: unset; width: unset; min-width: unset;
+}
+.layer-11-75937f71d65c4449b773a9e6494137c1-parentOrientationVariable{
+align-self: stretch; flex: unset; width: unset; min-width: unset;
+}
+.layer-13-06f52d7b242e4b51835571470ddf1c49-orientation{
+align-items: var(--horizontalAxis);
+justify-content: var(--verticalAxis);
+}
+.layer-43-f95248e09dd549f288ac58721ada6bef-parentOrientationVariable{
+align-self: stretch; flex: unset; width: unset; min-width: unset;
+}
+.layer-44-aa5df0b6eaa5487082bd99163e1afaaa-parentOrientationVariable{
+align-self: stretch; flex: unset; width: unset; min-width: unset;
+}
+.layer-45-992ba95b355a493490b858a7bdd142e9-parentOrientationVariable{
+align-self: stretch; flex: unset; width: unset; min-width: unset;
+}
+.layer-15-6960631e349c4adb9960d41790f8853c-orientation{
+align-items: var(--horizontalAxis);
+justify-content: var(--verticalAxis);
+}
+.layer-26-1ed9127d00c245b38b4bc615f01c80fd-parentOrientationVariable{
+align-self: stretch; flex: unset; width: unset; min-width: unset;
+}
+.layer-28-6952c296294742eb853ce73a19190ae1-parentOrientationVariable{
+align-self: stretch; flex: unset; width: unset; min-width: unset;
+}
+.layer-31-d9e59801864c4393a3b43066132c41c7-parentOrientationVariable{
+align-self: stretch; flex: unset; width: unset; min-width: unset;
+}
+.layer-21-e76eb8ae3a324cfa9d7bb384f57523fb-orientation{
+align-items: var(--horizontalAxis);
+justify-content: var(--verticalAxis);
+}
+.layer-24-1feb88816a914247b1865c520045edea-parentOrientationVariable{
+align-self: stretch; flex: unset; width: unset; min-width: unset;
+}
+.layer-46-10896f7295e14955b2e8ad8cac777cff-parentOrientationVariable{
+align-self: stretch; flex: unset; width: unset; min-width: unset;
+}
+.layer-47-3680d098f9f345ee8e60003fa83926dd-parentOrientationVariable{
+align-self: stretch; flex: unset; width: unset; min-width: unset;
+}
+.layer-48-e8f2a65a92d449ae851679782fd19cf4-parentOrientationVariable{
+align-self: stretch; flex: unset; width: unset; min-width: unset;
+}
+.layer-22-461c9bb7f49c4a8c9c884c33800629a5-orientation{
+align-items: var(--horizontalAxis);
+justify-content: var(--verticalAxis);
+}
+.layer-49-cbc82994b8594322acc164417d70ea9d-parentOrientationVariable{
+align-self: stretch; flex: unset; width: unset; min-width: unset;
+}
+.layer-50-f9148800a9cc48f69628ace845289e18-parentOrientationVariable{
+align-self: stretch; flex: unset; width: unset; min-width: unset;
+}
+.layer-51-d205bb52337e4fdda67d32e8c94d30aa-parentOrientationVariable{
+align-self: stretch; flex: unset; width: unset; min-width: unset;
+}
+.layer-52-7514801fface413394a38bb6887cf5d9-parentOrientationVariable{
+align-self: stretch; flex: unset; width: unset; min-width: unset;
+}
+.layer-9-efc53d14a8d04fd1aec82f7f3a2bb383-orientation{
+align-items: var(--horizontalAxis);
+justify-content: var(--verticalAxis);
+}
+.layer-16-7bca4a07ffbe4aabaa6f1672fb7103cb-parentOrientationVariable{
+align-self: stretch; flex: unset; width: unset; min-width: unset;
+}
+.layer-17-4b1be2602dde41e180f2ab80a87bc80c-parentOrientationVariable{
+align-self: stretch; flex: unset; width: unset; min-width: unset;
+} 
+}
+@media (min-width: 481px) {:root{
+	--color1: #FFFFFF;
+	--color2: #7A5DFF;
+	--color3: #FEF9F0;
+	--color4: #f3e5cd;
+	--color5: #000000;
+	--orientation: row;
+	--SidePadding: 5vw;
+	--verticalPadding: 5vh;
+	--verticalPadding2: 3vh;
+	--verticalMargin: 3vh;
+	--none: 0vh;
+	--buttonPaddingV: 10px;
+	--buttonPaddingH: 15px;
+	--buttonRadious: 20px;
+	--mentorImage: 130px;
+	--mobileVerticalMarging: 0vh;
+
+} 
+.layer-2-8dfbb73d7226432db31373ba652c6694-orientation{
+align-items: var(--verticalAxis);
+justify-content: var(--horizontalAxis);
+}
+.layer-35-7e0570b7725d422ea2777c82371d3898-parentOrientationVariable{
+flex: 1 1 50%; align-self: unset; width: 0px; min-width: 0px;
+}
+.layer-36-27c3a96c0b2742feba403d8afa9465f4-parentOrientationVariable{
+flex: 1 1 50%; align-self: unset; width: 0px; min-width: 0px;
+}
+.layer-3-f8ba8ca1ec86493ab2c71e4cd63f2b92-orientation{
+align-items: var(--verticalAxis);
+justify-content: var(--horizontalAxis);
+}
+.layer-10-fc65530f864645bb9313f6d7892c5e36-parentOrientationVariable{
+flex: 1 1 50%; align-self: unset; width: 0px; min-width: 0px;
+}
+.layer-11-75937f71d65c4449b773a9e6494137c1-parentOrientationVariable{
+flex: 1 1 50%; align-self: unset; width: 0px; min-width: 0px;
+}
+.layer-13-06f52d7b242e4b51835571470ddf1c49-orientation{
+align-items: var(--verticalAxis);
+justify-content: var(--horizontalAxis);
+}
+.layer-43-f95248e09dd549f288ac58721ada6bef-parentOrientationVariable{
+flex: 1 1 50%; align-self: unset; width: 0px; min-width: 0px;
+}
+.layer-44-aa5df0b6eaa5487082bd99163e1afaaa-parentOrientationVariable{
+flex: 1 1 50%; align-self: unset; width: 0px; min-width: 0px;
+}
+.layer-45-992ba95b355a493490b858a7bdd142e9-parentOrientationVariable{
+flex: 1 1 50%; align-self: unset; width: 0px; min-width: 0px;
+}
+.layer-15-6960631e349c4adb9960d41790f8853c-orientation{
+align-items: var(--verticalAxis);
+justify-content: var(--horizontalAxis);
+}
+.layer-26-1ed9127d00c245b38b4bc615f01c80fd-parentOrientationVariable{
+flex: 1 1 50%; align-self: unset; width: 0px; min-width: 0px;
+}
+.layer-28-6952c296294742eb853ce73a19190ae1-parentOrientationVariable{
+flex: 1 1 50%; align-self: unset; width: 0px; min-width: 0px;
+}
+.layer-31-d9e59801864c4393a3b43066132c41c7-parentOrientationVariable{
+flex: 1 1 50%; align-self: unset; width: 0px; min-width: 0px;
+}
+.layer-21-e76eb8ae3a324cfa9d7bb384f57523fb-orientation{
+align-items: var(--verticalAxis);
+justify-content: var(--horizontalAxis);
+}
+.layer-24-1feb88816a914247b1865c520045edea-parentOrientationVariable{
+flex: 1 1 50%; align-self: unset; width: 0px; min-width: 0px;
+}
+.layer-46-10896f7295e14955b2e8ad8cac777cff-parentOrientationVariable{
+flex: 1 1 50%; align-self: unset; width: 0px; min-width: 0px;
+}
+.layer-47-3680d098f9f345ee8e60003fa83926dd-parentOrientationVariable{
+flex: 1 1 50%; align-self: unset; width: 0px; min-width: 0px;
+}
+.layer-48-e8f2a65a92d449ae851679782fd19cf4-parentOrientationVariable{
+flex: 1 1 50%; align-self: unset; width: 0px; min-width: 0px;
+}
+.layer-22-461c9bb7f49c4a8c9c884c33800629a5-orientation{
+align-items: var(--verticalAxis);
+justify-content: var(--horizontalAxis);
+}
+.layer-49-cbc82994b8594322acc164417d70ea9d-parentOrientationVariable{
+flex: 1 1 50%; align-self: unset; width: 0px; min-width: 0px;
+}
+.layer-50-f9148800a9cc48f69628ace845289e18-parentOrientationVariable{
+flex: 1 1 50%; align-self: unset; width: 0px; min-width: 0px;
+}
+.layer-51-d205bb52337e4fdda67d32e8c94d30aa-parentOrientationVariable{
+flex: 1 1 50%; align-self: unset; width: 0px; min-width: 0px;
+}
+.layer-52-7514801fface413394a38bb6887cf5d9-parentOrientationVariable{
+flex: 1 1 50%; align-self: unset; width: 0px; min-width: 0px;
+}
+.layer-9-efc53d14a8d04fd1aec82f7f3a2bb383-orientation{
+align-items: var(--verticalAxis);
+justify-content: var(--horizontalAxis);
+}
+.layer-16-7bca4a07ffbe4aabaa6f1672fb7103cb-parentOrientationVariable{
+flex: 1 1 50%; align-self: unset; width: 0px; min-width: 0px;
+}
+.layer-17-4b1be2602dde41e180f2ab80a87bc80c-parentOrientationVariable{
+flex: 1 1 50%; align-self: unset; width: 0px; min-width: 0px;
+} 
+}
+@media (max-aspect-ratio: 1/1) and (min-width: 481px) {:root{
+	--orientation: row;
+	--color1: #FFFFFF;
+	--color2: #7A5DFF;
+	--color3: #FEF9F0;
+	--color4: #f3e5cd;
+	--color5: #000000;
+	--SidePadding: 5vw;
+	--verticalPadding: 5vh;
+	--verticalPadding2: 3vh;
+	--verticalMargin: 3vh;
+	--none: 0vh;
+	--buttonPaddingV: 10px;
+	--buttonPaddingH: 15px;
+	--buttonRadious: 20px;
+	--mentorImage: 130px;
+	--mobileVerticalMarging: 0vh;
+
+} 
+.layer-2-8dfbb73d7226432db31373ba652c6694-orientation{
+align-items: var(--verticalAxis);
+justify-content: var(--horizontalAxis);
+}
+.layer-35-7e0570b7725d422ea2777c82371d3898-parentOrientationVariable{
+flex: 1 1 50%; align-self: unset; width: 0px; min-width: 0px;
+}
+.layer-36-27c3a96c0b2742feba403d8afa9465f4-parentOrientationVariable{
+flex: 1 1 50%; align-self: unset; width: 0px; min-width: 0px;
+}
+.layer-3-f8ba8ca1ec86493ab2c71e4cd63f2b92-orientation{
+align-items: var(--verticalAxis);
+justify-content: var(--horizontalAxis);
+}
+.layer-10-fc65530f864645bb9313f6d7892c5e36-parentOrientationVariable{
+flex: 1 1 50%; align-self: unset; width: 0px; min-width: 0px;
+}
+.layer-11-75937f71d65c4449b773a9e6494137c1-parentOrientationVariable{
+flex: 1 1 50%; align-self: unset; width: 0px; min-width: 0px;
+}
+.layer-13-06f52d7b242e4b51835571470ddf1c49-orientation{
+align-items: var(--verticalAxis);
+justify-content: var(--horizontalAxis);
+}
+.layer-43-f95248e09dd549f288ac58721ada6bef-parentOrientationVariable{
+flex: 1 1 50%; align-self: unset; width: 0px; min-width: 0px;
+}
+.layer-44-aa5df0b6eaa5487082bd99163e1afaaa-parentOrientationVariable{
+flex: 1 1 50%; align-self: unset; width: 0px; min-width: 0px;
+}
+.layer-45-992ba95b355a493490b858a7bdd142e9-parentOrientationVariable{
+flex: 1 1 50%; align-self: unset; width: 0px; min-width: 0px;
+}
+.layer-15-6960631e349c4adb9960d41790f8853c-orientation{
+align-items: var(--verticalAxis);
+justify-content: var(--horizontalAxis);
+}
+.layer-26-1ed9127d00c245b38b4bc615f01c80fd-parentOrientationVariable{
+flex: 1 1 50%; align-self: unset; width: 0px; min-width: 0px;
+}
+.layer-28-6952c296294742eb853ce73a19190ae1-parentOrientationVariable{
+flex: 1 1 50%; align-self: unset; width: 0px; min-width: 0px;
+}
+.layer-31-d9e59801864c4393a3b43066132c41c7-parentOrientationVariable{
+flex: 1 1 50%; align-self: unset; width: 0px; min-width: 0px;
+}
+.layer-21-e76eb8ae3a324cfa9d7bb384f57523fb-orientation{
+align-items: var(--verticalAxis);
+justify-content: var(--horizontalAxis);
+}
+.layer-24-1feb88816a914247b1865c520045edea-parentOrientationVariable{
+flex: 1 1 50%; align-self: unset; width: 0px; min-width: 0px;
+}
+.layer-46-10896f7295e14955b2e8ad8cac777cff-parentOrientationVariable{
+flex: 1 1 50%; align-self: unset; width: 0px; min-width: 0px;
+}
+.layer-47-3680d098f9f345ee8e60003fa83926dd-parentOrientationVariable{
+flex: 1 1 50%; align-self: unset; width: 0px; min-width: 0px;
+}
+.layer-48-e8f2a65a92d449ae851679782fd19cf4-parentOrientationVariable{
+flex: 1 1 50%; align-self: unset; width: 0px; min-width: 0px;
+}
+.layer-22-461c9bb7f49c4a8c9c884c33800629a5-orientation{
+align-items: var(--verticalAxis);
+justify-content: var(--horizontalAxis);
+}
+.layer-49-cbc82994b8594322acc164417d70ea9d-parentOrientationVariable{
+flex: 1 1 50%; align-self: unset; width: 0px; min-width: 0px;
+}
+.layer-50-f9148800a9cc48f69628ace845289e18-parentOrientationVariable{
+flex: 1 1 50%; align-self: unset; width: 0px; min-width: 0px;
+}
+.layer-51-d205bb52337e4fdda67d32e8c94d30aa-parentOrientationVariable{
+flex: 1 1 50%; align-self: unset; width: 0px; min-width: 0px;
+}
+.layer-52-7514801fface413394a38bb6887cf5d9-parentOrientationVariable{
+flex: 1 1 50%; align-self: unset; width: 0px; min-width: 0px;
+}
+.layer-9-efc53d14a8d04fd1aec82f7f3a2bb383-orientation{
+align-items: var(--verticalAxis);
+justify-content: var(--horizontalAxis);
+}
+.layer-16-7bca4a07ffbe4aabaa6f1672fb7103cb-parentOrientationVariable{
+flex: 1 1 50%; align-self: unset; width: 0px; min-width: 0px;
+}
+.layer-17-4b1be2602dde41e180f2ab80a87bc80c-parentOrientationVariable{
+flex: 1 1 50%; align-self: unset; width: 0px; min-width: 0px;
+} 
+}
