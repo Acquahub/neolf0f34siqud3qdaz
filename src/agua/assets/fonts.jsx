@@ -7,9 +7,19 @@ export const GoogleRoboto = Roboto({
     weight: '400',
     variable: '--Roboto'
 });
-export const _apple_system,_system_ui,_BlinkMacSystemFont,_'Roboto',_sans_serif = localFont({
-    src: "./fonts/-apple-system,_system-ui, BlinkMacSystemFont, 'Roboto', sans-serif.undefined",
+export const IBMPlexSans_Light = localFont({
+    src: "./fonts/IBMPlexSans-Light.undefined",
     display: 'swap',
-    variable: "--_apple_system,_system_ui,_BlinkMacSystemFont,_'Roboto',_sans_serif",
+    variable: "--IBMPlexSans_Light",
+});
+export const IBMPlexSans_Bold = localFont({
+    src: "./fonts/IBMPlexSans-Bold.undefined",
+    display: 'swap',
+    variable: "--IBMPlexSans_Bold",
+});
+export const IBMPlexSans_Regular = localFont({
+    src: "./fonts/IBMPlexSans-Regular.undefined",
+    display: 'swap',
+    variable: "--IBMPlexSans_Regular",
 });
 

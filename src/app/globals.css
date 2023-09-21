@@ -80,14 +80,22 @@ code {
 	--SidePadding: 5vw;
 	--verticalPadding: 5vh;
 	--verticalPadding2: 3vh;
-	--verticalMargin: 3vh;
+	--verticalMargin: 5vh;
 	--none: 0vh;
 	--buttonPaddingV: 10px;
 	--buttonPaddingH: 15px;
 	--buttonRadious: 20px;
 	--mentorImage: 130px;
 	--mobileVerticalMarging: 0vh;
-	--Title: 0;
+	--Title: 30px;
+	--Title2: 25px;
+	--fontLight: url(/_next/image?url=%2Fassets%2FIBMPlexSans-Light.ttf&w=3840&q=75);
+	--fontBold: url(/_next/image?url=%2Fassets%2FIBMPlexSans-Bold.ttf&w=3840&q=75);
+	--paragraphSize: 20px;
+	--timelineV: 300px;
+	--timelineH: 800px;
+	--beneficiosV: 500px;
+	--beneficiosH: 500px;
 
 }
 
@@ -297,7 +305,7 @@ align-self: stretch; flex: unset; width: unset; min-width: unset;
 	--SidePadding: 5vw;
 	--verticalPadding: 5vh;
 	--verticalPadding2: 3vh;
-	--verticalMargin: 3vh;
+	--verticalMargin: 5vh;
 	--none: 0vh;
 	--buttonPaddingV: 10px;
 	--buttonPaddingH: 15px;
